@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!--Wrapper-->
+    <div class="grid">
+    <!--Header part-->
+    <header class="header">
+      <div class="top-left"><img class="person-picture" src="./asset/images/header-person-pic.fw.png" alt=""><p class="person-name">HOANG NGUYEN</p></div>
+      <div class="top-right">
+      <div class="begin">
+          <img class="profile" src="./asset/images/profile.fw.png" alt="">
+          <img class="messages" src="./asset/images/messages.fw.png" alt="">
+          <img class="annotations" src="./asset/images/annotations.fw.png" alt="">
+          <span class="annotations-value">2</span>
+      </div>
+      <div class="center"><img class="app-symbol" src="./asset/images/app-symbol.fw.png" alt=""></div>
+      <div class="end"><input class="search-bar" type="text" placeholder="Type for search"></div></div>
+    </header>
+    <!--End header part-->
+
+    <!--Left sidenav-->
+    <div class="left-side-nav">
+        <ul>
+          <li><div class="link"><img src="./asset/images/dasboard.fw.png" alt=""><span>DASHBOARD</span></div></li>
+          <li><div class="link"><img src="./asset/images/course.fw.png" alt=""><span>COURSE</span></div></li>
+          <li><div class="link"><img src="./asset/images/exam.fw.png" alt=""><span>EXAM</span></div></li>
+          <li><div class="link"><img src="./asset/images/q&a.fw.png" alt=""><span>Q&A</span></div></li>
+          <li><div class="link"><img src="./asset/images/news.fw.png" alt=""><span>NEWS</span></div></li>
+        </ul>
+    </div>
+    <!--End left sidenav-->
+
+    <!--Person info and horizontal navbar-->
+    <section class="info-nav">
+      <div class="top">
+        <div class="top-left">
+          <img src="./asset/images/person-info-pic.fw.png" alt=""><div class="person-infos">
+          <span class="person-name-score"><span class="person-name">HOANG NGUYEN</span><span class="person-star"><img src="./asset/images/stars.fw.png" alt=""></span> </span>
+          <span class="person-occupation"><span class="occupation">Student</span><img src="./asset/images/person-side-button.fw.png" alt=""><span class="learn-button">Learn more</span></span>
+          <span class="person-score"><img src="./asset/images/person-score-img.fw.png" alt=""><span>8,782 exp</span></span></div>
+        </div>
+        <div class="top-right">
+         <span class="edit" title="edit">  <img  src="./asset/images/edit.fw.png" alt=""></span>
+         <span class="logout" title="logout"><img  src="./asset/images/logout.fw.png" alt=""></span>
+        </div>
+      </div>
+      <div class="bottom"><ul>
+        <li class="link">KNOWLEDGE</li><li class="link">COURSE</li><li class="link">EXAM</li>
+        <li class="link">Q&A</li><li class="link">NEWS</li><li class="link">ACTIVITY</li><li class="link">FRIENDS</li>
+      </ul></div>
+    </section>
+    <!--End person info and horizontal navbar-->
+    
+    <!--Display area-->
+    <main class="display-area">
+      <!--Custom course Card-->
+      <div class="card-course card">
+        <header class="nav">
+         <span class="nav-left"><div class="title-done-value">12</div><div class="title-done">DONE COURSE</div></span> 
+         <span class="nav-right"><div class="title-undone-value">3</div><div class="title-undone">UNFINISHED COURSE</div></span></header> 
+        <main class="content">
+          <ul class="content-list">
+          <li class="content"><p>Basic for UX designer</p></li>
+          <li class="content"><p>10 steps to improve your wireframe</p></li>
+          <li class="content"><p>A Better Way To Request App Ratings</p></li>
+          <li class="content"><p>How To Speed Up Your WordPress Site</p></li></ul>
+        </main>
+        <footer><div class="show-more-link">Show more</div><img class="show-more-image" src="./asset/images/show-more.fw.png" alt=""></footer>
+      </div>
+      <!--End custom course Card-->
+
+      <!--Custom question Card-->
+      <div class="card-question card">
+        <header class="nav">
+          <span class="nav-left"><div class="title-done-value">27</div><div class="title-done">ASKING QUESTIONS</div></span> 
+          <span class="nav-right"><div class="title-undone-value">7</div><div class="title-undone">ANSWERED QUESTIONS</div></span></header> 
+        <main class="content">
+          <ul class="content-list">
+          <li class="content"><span><img src="./asset/images/comment.png" alt=""><p>12</p></span><p>How to make good logo?</p></li>
+          <li class="content"><span><img src="./asset/images/comment.png" alt=""><p>3</p></span><p>What are the best mobile apps for...</p></li>
+          <li class="content"><span><img src="./asset/images/comment.png" alt=""><p>67</p></span><p>What's the difference between UI and ...</p></li>
+          <li class="content"><span><img src="./asset/images/comment.png" alt=""><p>0</p></span><p>What logos include hidden messages ...</p></li></ul>
+        </main>
+        <footer><div class="show-more-link">Show more</div><img class="show-more-image" src="./asset/images/show-more.fw.png" alt=""></footer>
+      </div>
+      <!--End custom question Card-->
+
+       <!--Custom exam Card-->
+       <div class="card-exam card">
+        <header class="nav">
+          <span class="nav-left"><div class="title-done-value">19</div><div class="title-done">FOLLOWING EXAMS</div></span> 
+          <span class="nav-right"><div class="title-undone-value">88</div><div class="title-undone">DONE EXAMS</div></span></header> 
+        <main class="content">
+          <ul class="content-list">
+          <li class="content"><span><span class="exam-bar-content">
+            <span class="bar-percentage"><span class="exam-bar" style="height: 70%;"></span></span>
+            </span><p class="percentage">%70</p></span><p>Junior web designer</p></li>
+          <li class="content"><span><span class="exam-bar-content">
+            <span class="bar-percentage"><span class="exam-bar" style="height: 20%;"></span></span>
+            </span><p class="percentage">%20</p></span><p>Which is the best way to pass the PMP ...</p></li>
+          <li class="content"><span><span class="exam-bar-content">
+            <span class="bar-percentage"><span class="exam-bar" style="height: 35%;"></span></span>
+            </span><p class="percentage">%35</p></span><p>What are the great examples of viral UX/UI ...</p></li>
+          <li class="content"><span><span class="exam-bar-content">
+            <span class="bar-percentage"><span class="exam-bar" style="height: 90%;"></span></span>
+            </span><p class="percentage">%90</p></span><p>Why is consistency important in design?</p></li></ul>
+        </main>
+        <footer><div class="show-more-link">Show more</div><img class="show-more-image" src="./asset/images/show-more.fw.png" alt=""></footer>
+      </div>
+      <!--End custom exam Card-->
+
+      <div class="card-status">
+        <!--Card experince area-->
+        <section class="experience-area">
+          <header class="title">Experience gained</header>
+          <main class="bars">
+            <span class="bar content"><span class="bar-vertical" style="height: 80%;"></span><div class="title">COURSE</div></span>
+            <span class="bar content"><span class="bar-vertical" style="height: 20%;"></span><div class="title">QUESTION</div></span>
+            <span class="bar content"><span class="bar-vertical" style="height: 50%;"></span><div class="title">EXAM</div></span>
+            <span class="result content"><span class="score">+142</span><span class="month">LAST MONTH</span></span>
+          </main>
+          <footer class="graph">
+            <span class="graph-title">Experince per day</span>
+            <div class="experince-graph">
+              <img src="./asset/images/graph.fw.png" alt="">
+            </div>
+          </footer>
+        </section>
+        <!--Card friend activity area-->
+        <section class="friend-activity-area">
+          <header class="friend-activity-title">FRIEND ACTIVITY</header>
+          <main class="content-list">
+            <ul>
+              <li class="friend-activity-content"><img src="./asset/images/friend-picture.fw.png" alt=""><span class="name">SHAWN PETERSON
+              </span><span class="info-title">Finished the course: <b style="color: #384A5E;">Basic for UX Designer</b></span><span class="date"><img src="" alt="">9:30 PM</span><div class="separator"></div></li>
+              <li class="friend-activity-content"><img src="./asset/images/friend-picture.fw.png" alt=""><span class="name">MARY V. ROBINSON
+              </span><span class="info-title">Asked question: <b style="color: #384A5E;">What is best grid for dekstop web?</b></span><span class="date"><img src="" alt="">9:20 PM</span><div class="separator"></div></li>
+              <li class="friend-activity-content"><img src="./asset/images/friend-picture.fw.png" alt=""><span class="name">JOE RAMOS
+              </span><span class="info-title">Finished the exam: <b style="color: #384A5E;">Junior web designer</b></span><span class="date"><img src="" alt="">7:45 PM</span><div class="separator"></div></li>
+              <li class="friend-activity-content"><img src="./asset/images/friend-picture.fw.png" alt=""><span class="name">SEAN WALKER
+              </span><span class="info-title">Answered question: <b style="color: #384A5E;">How to make good logo?</b></span><span class="date"><img src="" alt="">11:15 AM</span><div class="separator"></div></li>
+            </ul>
+          </main>
+          <footer><span class="show-more-link">Show more</span><img class="show-more-image" src="./asset/images/show-more.fw.png" alt=""></footer>
+        </section>
+      </div>
+
+
+    </main>
+    <!--End display area-->
+  </div>
+  <!--End wrapper-->
+  </body>
+</html>
