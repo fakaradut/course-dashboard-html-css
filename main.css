@@ -621,6 +621,13 @@ footer {
   main.display-area {
     padding: 0rem;
   }
+  .left-side-nav ul{
+    text-align: center;
+  }
+  .left-side-nav ul li{
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 
 @media only screen and (max-width: 530px) {
