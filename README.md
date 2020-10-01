@@ -1,4 +1,4 @@
-# course-dashboard-html-css
+# Course Dashboard Application Html-Css
 
 ## Source PSD
 #### link: https://dribbble.com/shots/1640899-Freebie-Course-Dashboard?list=users&offset=0
